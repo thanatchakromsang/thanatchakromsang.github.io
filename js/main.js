@@ -4,6 +4,13 @@ window.onload = function() {
      connectParticles: true,
      minDistance: 90,
      color: '#123456',
+
+     responsive: [{
+      breakpoint: 768,
+      options: {
+        maxParticles: 40,
+      }
+     }]
    });
  };
 
