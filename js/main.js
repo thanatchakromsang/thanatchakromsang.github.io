@@ -9,6 +9,7 @@ window.onload = function() {
       breakpoint: 768,
       options: {
         maxParticles: 40,
+        minDistance: 55,
       }
      }]
    });
