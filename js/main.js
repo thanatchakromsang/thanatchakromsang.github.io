@@ -1,11 +1,11 @@
-// window.onload = function() {
-//    Particles.init({
-//      selector: '.background',
-//      connectParticles: true,
-//      minDistance: 90,
-//      color: '#123456',
-//    });
-//  };
+window.onload = function() {
+   Particles.init({
+     selector: '.background',
+     connectParticles: true,
+     minDistance: 90,
+     color: '#123456',
+   });
+ };
 
  var typed = new Typed('.typed', {
   strings: ["a web developer.", "a mobile app developer","an infrastructure engineer.", "a linux freak.", "a vim enthusiast."],
