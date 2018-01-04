@@ -9,10 +9,10 @@ window.onload = function() {
 
  var typed = new Typed('.typed', {
   strings: ["a web developer.", "a mobile app developer","an infrastructure engineer.", "a linux freak.", "a vim enthusiast."],
-  typeSpeed: 50,
+  typeSpeed: 70,
   startDelay: 500,
   backDelay: 500,
-  backSpeed: 40,
+  backSpeed: 50,
   showCursor: false,
   cursorChar: "▋",
   loop: true,
