@@ -1,0 +1,39 @@
+baseURL = "https://tkops.dev/"
+title = "TKops Blog"
+theme = "book"
+disablePathToLower = true
+enableGitInfo = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+startLevel = 1
+
+[languages.en]
+languageName = "English"
+contentDir = "content"
+weight = 2
+
+[languages.th]
+languageName = "Thai"
+contentDir = "content.th"
+weight = 1
+
+[[menu.after]]
+name = "Github"
+url = "https://github.com/thanatchakromsang"
+weight = 10
+
+[params]
+BookTheme = "light"
+BookToC = true
+BookSection = "docs"
+BookRepo = "https://github.com/thanatchakromsang/thanatchakromsang.github.io"
+BookEditPath = "edit/hugo" #edit/<branch>
+BookDateFormat = "January 2, 2006"
+BookSearch = true
+BookComments = true
+BookPortableLinks = true
+BookServiceWorker = true
+BookTranslatedOnly = false
