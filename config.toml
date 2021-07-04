@@ -1,5 +1,5 @@
 baseURL = "https://tkops.dev/"
-title = "TKops Blog"
+title = "TKops"
 theme = "book"
 disablePathToLower = true
 enableGitInfo = true
